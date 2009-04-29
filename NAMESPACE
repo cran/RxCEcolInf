@@ -1,0 +1,12 @@
+useDynLib(RxCEcolInf)
+import(MASS)
+import(MCMCpack)
+import(mvtnorm)
+
+export(
+       Analyze,
+       AnalyzeWithExitPoll,
+       Tune,
+       TuneWithExitPoll,
+       gendata.ep
+       )
