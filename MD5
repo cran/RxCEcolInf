@@ -1,5 +1,5 @@
-e5eb662b6417f0a97a90aaeb1bef12d6 *DESCRIPTION
-ed81799607bd3f97f44bb7e648ae8c42 *NAMESPACE
+2ba5f0a6d77a014cc0919c9537f992e2 *DESCRIPTION
+33322d17ad1134242ec36d274c43dfed *NAMESPACE
 4c9145fcd9f5b6a4e4a4bbd85fec13e7 *R/Analyze.R
 89359e7114af21b167d725c43047d7d3 *R/AnalyzeWithExitPoll.R
 3e76b6ad646a40d5d4a88d5676515568 *R/SimDataEP.R
@@ -13,9 +13,10 @@ cdea44a000fa5b8fac25a6feb39791f2 *R/gq_diagnostics.R
 6837b6dc380c8b2d2dab22cde58b8dda *R/gq_restart.R
 4a14503676ce800adcf5cf4fc197d1fb *R/gq_summary.R
 e30605067f94ee5b1987b0b09c339153 *R/rnchg.R
-48f08ecc475921779d93492e7ab50882 *R/zzz.R
-38779175a7789203ab8cc3b0d395367c *data/stlouis.txt
-03b5fd4c9bf543a5178c2379fd1ff59c *data/texas.txt
+f59555de35d6d9309f0ee8cdb3b2c3a7 *R/zzz.R
+75a2dca89e42a201242364816f5498bf *data/stlouis.txt.gz
+b06f4f2f29bcd0f2bc228b2425d58880 *data/texas.txt.gz
+45dfd099f72766cc52eb386214e79b45 *dos2unix.sh
 474ea1750c7e2745de4bc2e7877c597f *man/Analyze.Rd
 520149f17b77852684a95e03cee1d39c *man/AnalyzeWithExitPoll.Rd
 f1a3bb58b03efd55579250b318e762ea *man/RxCEcolInf-package.Rd
@@ -45,5 +46,5 @@ f477bfdb449256e3c5b8cb41c03cce03 *src/jimsmatrixinterface.c
 a921748c2e2b0821c3e2e615d5e3d212 *src/jimsmisc.h
 d9c76a1f648882da0d748ade9076f3b3 *src/jimsrandom.c
 f4c2f4d3c5255530bd731b6d32072427 *src/jimsrandom.h
-031446d2a4088411ca90fe481f8b90db *src/nchg.c
+82529e5b90eeeb0a2475884318881404 *src/nchg.c
 9535f12eb801a0e634adf4dffe75c4ab *src/nchg.h

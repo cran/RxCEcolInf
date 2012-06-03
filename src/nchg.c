@@ -404,7 +404,8 @@ jims_original_rnchg(double m1, double n1, double n2, double psi, double delta, d
     }
   } while(udraw > psum);
 
-  exit(500000);
+  //exit(500000);
+  error("ERROR: problem with jims_original_rnchg()");
 }
 
 double

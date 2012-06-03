@@ -2,6 +2,7 @@ useDynLib(RxCEcolInf)
 import(MASS)
 import(MCMCpack)
 import(mvtnorm)
+import(lattice)
 
 export(
        Analyze,
