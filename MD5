@@ -1,4 +1,4 @@
-2ba5f0a6d77a014cc0919c9537f992e2 *DESCRIPTION
+d140cbdccd307ab32499b7eeb63478a6 *DESCRIPTION
 33322d17ad1134242ec36d274c43dfed *NAMESPACE
 4c9145fcd9f5b6a4e4a4bbd85fec13e7 *R/Analyze.R
 89359e7114af21b167d725c43047d7d3 *R/AnalyzeWithExitPoll.R
@@ -25,7 +25,7 @@ eae8ef3fd848f713b7032d94293a4db2 *man/TuneWithExitPoll.Rd
 cd826370d74a4f182bac52129651c8dd *man/gendata.ep.Rd
 d005b1d9b0f16b1b1e9d6d4fda73bff4 *man/stlouis.Rd
 d4067c7558ec7bc7bd4dc898ed21b2f0 *man/texas.Rd
-664f7ecaacf6d1e05ed0d3dea7694f54 *src/Makevars
+2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
 9e2e5d293ebce7398573808fd7707580 *src/covariates.c
 a512c0fdc288bc2942ed2c76ee57d2f5 *src/exitpoll.c
 7fc50ea87c7a19af4830eed1682d62f8 *src/gqjrssa.c
