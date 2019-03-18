@@ -155,5 +155,5 @@
                "rho_vec" = as.numeric(rho.vec),
                "numscans" = as.integer(numscans),
                "dbg" = as.integer(debug))
-  .Call("TuneWithExitPoll", PACKAGE="RxCEcolInf", args)
+  .Call("C_TuneWithExitPoll", PACKAGE="RxCEcolInf", args)
 }

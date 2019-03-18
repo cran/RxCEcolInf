@@ -76,8 +76,10 @@ matrix_repack_new(Matrix *xx)
   const index_t ncol_xx=numcols(xx);
   SEXP retMat;
   PROTECT(retMat = allocMatrix(REALSXP,nrow_xx,ncol_xx));
+  //retMat = allocMatrix(REALSXP,nrow_xx,ncol_xx);
   double *aa=REAL(retMat);
   memcpy(aa,xx,sizeof(double)*nrow_xx*ncol_xx);
+  //UNPROTECT(1);//This line was added by Jerry Yu on 3/6/2019, in response to"[PB] has possible protection stack imbalance RxCEcolInf/src/jimsmatrixinterface.c:81"
   return retMat;
 }
 
@@ -120,7 +122,9 @@ matrix_vector_repack_new(Matrix *inVec)
   const index_t ncol_inVec = numcols(inVec);
 
   SEXP retVec;
+  // line below commented out 3/2019
   PROTECT(retVec = allocVector(REALSXP, max(nrow_inVec,ncol_inVec)));
+  //retVec = allocVector(REALSXP, max(nrow_inVec,ncol_inVec));
   double *aa = REAL(retVec);
 
   if (nrow_inVec == 1){  // if row vector
@@ -133,6 +137,7 @@ matrix_vector_repack_new(Matrix *inVec)
     for (ii=0; ii<nrow_inVec; ii++)
       aa[ii] = matrix_get_element(inVec, ii, 0);
   }
+  //UNPROTECT(1);//This line was added by Jerry Yu on 3/6/2019, in response to"[PB] has possible protection stack imbalance RxCEcolInf/src/jimsmatrixinterface.c:136"
   return retVec;
 }
 

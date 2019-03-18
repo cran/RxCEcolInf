@@ -340,7 +340,6 @@ Analyze(fstring, rho.vec, data = NULL, num.iters = 1e+06,
 
   Martyn Plummer, Nicky Best, Kate Cowles, and Karen Vines. 2002.
    \emph{Output Analysis and Diagnostics for MCMC (CODA)}.
-   \url{http://www-fis.iarc.fr/coda/}
 }
 \author{D. James Greiner, Paul D. Baines, \& Kevin M. Quinn}
 %\note{ ~~further notes~~ 

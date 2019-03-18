@@ -235,7 +235,7 @@ for (i in 1){
                  "keepTHETAS" = as.double(keepTHETAS),
                  "print_every" = as.integer(print.every),
                  "dbg" = as.integer(debug))
-    gq.output <- .Call("Analyze", PACKAGE="RxCEcolInf", args)
+    gq.output <- .Call("C_Analyze", PACKAGE="RxCEcolInf", args)
 
     if (keep.restart.info){
       # Save the state of the RNG in case gq.restart is needed:

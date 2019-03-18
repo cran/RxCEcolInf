@@ -97,7 +97,7 @@ for (i in 1){
                  "print_every" = as.integer(print.every),
                  "dbg" = as.integer(debug))
 
-    gq.append.output <- .Call("Analyze", PACKAGE="RxCEcolInf", args)
+    gq.append.output <- .Call("C_Analyze", PACKAGE="RxCEcolInf", args)
 
     # Mesh the two outputs together:
     attr(gq.output,"restart.info")  <- attr(gq.append.output,"restart.info")

@@ -278,7 +278,7 @@
                  "keepTHETAS" = as.double(keepTHETAS),
                  "print_every" = as.integer(print.every),
                  "dbg" = as.integer(debug))
-    gq.output <- .Call("AnalyzeWithExitPoll", PACKAGE="RxCEcolInf", args)
+    gq.output <- .Call("C_AnalyzeWithExitPoll", PACKAGE="RxCEcolInf", args)
 
     if (keep.restart.info){
       # Save the state of the RNG in case gq.restart is needed:

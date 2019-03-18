@@ -1,9 +1,10 @@
-useDynLib(RxCEcolInf)
+useDynLib(RxCEcolInf, .registration = TRUE) 
 import(MASS)
 import(MCMCpack)
 import(mvtnorm)
 import(lattice)
-
+import(coda)
+importFrom(stats, cov2cor, rchisq, rgamma, rmultinom,rnorm, rpois, runif) 
 export(
        Analyze,
        AnalyzeWithExitPoll,

@@ -552,7 +552,9 @@ double byron_used_from_V20_rnchg(double n1,double n2,double m1,double psi,const 
 		//If the other mode is ALSO outside of the range, pick the closest one 
 		//to the range.
 		if(mode2 < l || mode2 > u) {
-			int d1 = abs(((double)nu > u)  ? nu - (int)u : l - nu);
+			// the following 1 line were modified by Jerry Yu on 3/6/2019. 
+			// WARNIG: nchg.c:555:13: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value] 
+			int d1 = abs(((double)nu > u)  ? nu - (int)u : (int) (l - nu));// Jerry Yu changed 1-nu to (int) (1-un) to make the number an integer
 			int d2 = abs(mode2 > u ? (int)(mode2 - u) : (int)(l-mode2));
 			//Too far away. Bail.
 			if(d1 > 1000 && d2 > 1000) { return R_NegInf; }

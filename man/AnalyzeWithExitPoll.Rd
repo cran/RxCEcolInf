@@ -281,7 +281,6 @@ AnalyzeWithExitPoll(fstring, rho.vec, exitpoll, data = NULL,
 
   Martyn Plummer, Nicky Best, Kate Cowles, and Karen Vines. 2002.
    \emph{Output Analysis and Diagnostics for MCMC (CODA)}.
-   \url{http://www-fis.iarc.fr/coda/}
 }
 \author{D. James Greiner, Paul D. Baines, \& Kevin M. Quinn}
 %\note{ ~~further notes~~ 
