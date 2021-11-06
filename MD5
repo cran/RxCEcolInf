@@ -1,4 +1,4 @@
-9161f0bfc79444cce39f6f0a299b50ae *DESCRIPTION
+8aa3af93c6bdbd54c11a3af6815a6f68 *DESCRIPTION
 4c5c7b72f30bcbe90d6d49c85e2f6e0b *NAMESPACE
 978bb0bb385d9795436fa4bca87b031e *R/Analyze.R
 877b06b789dffecf70042a068c8f3460 *R/AnalyzeWithExitPoll.R
@@ -24,7 +24,7 @@ eae8ef3fd848f713b7032d94293a4db2 *man/TuneWithExitPoll.Rd
 cd826370d74a4f182bac52129651c8dd *man/gendata.ep.Rd
 d005b1d9b0f16b1b1e9d6d4fda73bff4 *man/stlouis.Rd
 d4067c7558ec7bc7bd4dc898ed21b2f0 *man/texas.Rd
-2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
+d5fec98159e8f80339f7baa969988b13 *src/Makevars
 ba4515d5361e32258bfb297152d1c71e *src/RxCEcolInf_init.c
 9e2e5d293ebce7398573808fd7707580 *src/covariates.c
 a512c0fdc288bc2942ed2c76ee57d2f5 *src/exitpoll.c
@@ -36,8 +36,8 @@ ad5a3d2af474709df95c33c2ef8f555b *src/jimsimatrix.c
 21ee7d0d846f94aa49df4a3f429c2a25 *src/jimsimatrix.h
 7b3b3ff7725fb3b449bedfcbc2404370 *src/jimslprob.c
 67aace30a6545c0a3d7ceff0b822d4a1 *src/jimslprob.h
-5c1aa615ae9c1230006737b8a2dd94ce *src/jimsmatrix.c
-f74ba8e2b064e6f927d06760cf15ac9c *src/jimsmatrix.h
+353d387f921bc50eb97978fedfa81162 *src/jimsmatrix.c
+4c3fede8a8fbda3336caf77796e776cc *src/jimsmatrix.h
 cd319b337708fa43cf5a069416fe0027 *src/jimsmatrix_p.c
 8b2c41462d2886e05e5e9ef8b3d992ee *src/jimsmatrix_p.h
 1e628ca3c2e43a8243f09989ec87bc9f *src/jimsmatrixinterface.c

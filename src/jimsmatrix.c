@@ -396,7 +396,7 @@ void matrix_multiply(Matrix *A, char tA, Matrix *B, char tB, Matrix *C)
   // C is the only input that is changed on exit
   
   if (m>0 && n>0 && k>0){
-    F77_CALL(dgemm)(transa,transb,&m,&n,&k,&one,A,&lda,B,&ldb,&zero,C,&ldc);
+    F77_CALL(dgemm)(transa,transb,&m,&n,&k,&one,A,&lda,B,&ldb,&zero,C,&ldc FCONE FCONE);
   } else
     matrix_fastset(C,0);
   return;
@@ -714,7 +714,7 @@ void matrix_cholesky(Matrix  *X, Matrix *Y)
   //      >0 => if INFO = -i the ith argument had an illegal value
   //      <0 => if INFO = i the leading minor of order i is not p.d.
   //   
-  F77_CALL(dpotrf)("Upper",&m,Y,&m,&i); 
+  F77_CALL(dpotrf)("Upper",&m,Y,&m,&i FCONE); 
 //F77_CALL(chol)(X,&n,&n,Y,i);
   if (i!=0){
     if (i>0)

@@ -30,6 +30,11 @@
 #include<stddef.h>
 #include<float.h>
 
+// Workaround for pre-3.6 R compatibility:
+#ifndef FCONE
+#define FCONE
+#endif
+
 typedef unsigned index_t;
 typedef double Matrix;
 
